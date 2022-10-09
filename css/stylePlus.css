@@ -1,0 +1,1455 @@
+aseanplus_1/* CSS For Asean WebProject */
+body{
+	margin: 0;
+	font-family: 'Kanit', sans-serif;
+}
+
+/* Menu */
+.BG_headMenu{
+	height: 63px;
+	width: 100%;
+	background-color: grey;
+	visibility: visible;
+	opacity: 1;
+}
+
+#headMenu{
+	position: fixed;
+	top: 0;
+	display: inline-block;
+	z-index: 1000;
+}
+
+#logoMenu{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 50px;
+	width: 200px;
+	height: 63px;
+}
+
+#logoMenu > a > img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.Menu{
+	
+	top:30%;
+
+}
+
+.Menu > ul{
+	width: 100%; 
+	display: flex; 
+}
+
+.Menu ul{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Menu li{
+    font-size: 1.05em;
+    text-align: left;
+    line-height: 50px;
+    width: 300px;
+    height: 45px;
+    display: inline-block;
+    padding: 0;
+    margin-right: -4px;
+    transition: .3s;
+}
+
+.Menu > ul > li {
+	margin-top: 10px;
+}
+
+.Menu a{ 
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding-left: 15px;
+	transition: .3s;
+}
+
+.Menu li:hover{
+	background-color: white;
+    color: red;
+}
+
+.Menu a:hover{
+	color: red;
+
+}
+
+
+.Menu > ul >li{
+    text-align: center;
+}
+
+.Menu > ul > li > a{
+    padding-left: 0;
+}
+/*- sub menu -*/
+.Menu li ul{
+    position: absolute;
+    display: none;
+    width: 220.5px;
+}
+
+.Menu li li{
+    font-size: 0.9em;
+}
+
+
+
+.Menu li:hover ul{
+    display: block;
+}
+
+.Menu li ul li{
+    display: block;
+    padding: 0;
+    width: 220.5px;
+}
+
+.Menu > ul > li > ul{
+    margin-top: -4px;
+}
+
+
+
+/* ------ */
+
+
+/* Picture Top */
+
+
+#pictureTop{
+	padding: 0;
+	height: 700px;
+	width: 1519.59px;
+	background-color: green;
+}
+
+#pic1 > img{
+	height: 450px;
+	width: 100%;
+}
+	
+
+/* ----- */
+
+
+/* Content */
+
+#content{
+	height: auto;
+	width: 100%;
+	background-color: grey;
+}
+
+/*-- asean --*/
+#asean{
+	position: relative;
+	width: 90%;
+	height: 900px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+
+}
+
+#pic-1-1a{
+	position: absolute;
+	visibility: hidden;
+	top:-250px;
+	left: 36.8%;
+	width: 400px;
+	height: 260px;
+	opacity: 0;
+	z-index: -0.5;
+}
+
+#pic-1-1a > img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.bg-a{
+	width: 50%;
+	height: 200px;
+	background-color: rgb(11, 61, 145);
+}
+
+#bg-a1{
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	opacity: 0;
+}
+
+#bg-a2{
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	opacity: 0;
+}
+
+#content-1a{
+	position: absolute;
+	width: 90%;
+	top: 210px;
+	opacity: 0;
+	font-size: 0em;
+}
+
+#pic-2a {
+	position: absolute;
+	top: 430px;
+	left: 100px;
+	width: 430px;
+	height: 180px;
+}
+
+#pic-2a > img{
+	width: 100%;
+	height: 100%;
+
+}
+
+#content-2a{
+	position: absolute;
+	width: 40%;
+	opacity: 0;
+	top: 500px;
+	right: 0px;
+	font-size: 1em;
+}
+
+/* member */
+#members{
+	position: relative;
+	width: 90%;
+	height: 750px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(245, 245, 245);
+}
+
+#content-2b{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+}
+
+.logoflag{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	box-shadow: 5px 5px 20px 1px #757272;
+	transition: .3s;
+
+}
+
+
+
+.logoflag:hover{
+	width: 125px;
+	height: 125px;
+	transform: rotate(10deg);
+	box-shadow: 5px 5px 20px 5px #1643BD;
+	cursor: pointer;
+}
+
+#logo10{
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	left: 545px;
+	top: 160px;
+	border-radius: 100%;
+	box-shadow: 5px 5px 20px 3px #757272;
+	transition: .3s;
+}
+
+#logo10:hover{
+	animation: logo10Move 1s;
+	cursor: pointer;
+}
+
+@keyframes logo10Move {
+	0% {transform: rotate(0deg);}
+    25% {transform: rotate(10deg);}
+  	50% {transform: rotate(-10deg);}
+  	100% {transform: rotate(0deg);}
+}
+
+#c1{
+	left: 620px;
+	top: 0px;
+}
+
+#c2{
+	left: 780px;
+	top: 50px;
+}
+
+#c3{
+	left: 890px;
+	top: 175px;
+}
+
+#c4{
+	left: 890px;
+	top: 325px;
+}
+
+#c5{
+	left: 780px;
+	top: 440px;
+}
+
+#c6{
+	left: 620px;
+	top: 480px;
+}
+#c7{
+	left: 460px;
+	top: 440px;
+}
+#c8{
+	left: 350px;
+	top: 325px;
+}
+#c9{
+	left: 350px;
+	top: 175px;
+}
+
+#c10{
+	left: 460px;
+	top: 50px;
+}
+
+@keyframes moveInC3 {
+	0% {top: 80px; opacity: 0;}
+	25% {}
+  	50% {}
+  	100%{top: 110px;  opacity: 1;}
+}
+
+@keyframes moveInC4 {
+	0% {top: 190px; opacity: 0;}
+	25% {}
+  	50% {}
+  	100%{top: 220px; opacity: 1;}
+}
+
+
+
+.content-3b-1{
+	position: absolute;
+	visibility: hidden;
+	/*background-color: lightgrey;*/
+	width: 300px;
+	padding: 10px;
+	top: 110px;
+	left: 90px;
+	
+
+}
+
+
+.c4-logo{
+	position: absolute;
+	visibility: hidden;
+	/*background-color: lightgrey;*/
+	padding: 10px;
+	width: 250px;
+	height: 220px;
+	right: 100px;
+	top: 220px;
+	
+}
+
+.content-3b-1 b{
+	font-size: 1.25em;
+}
+
+
+
+/* ----- */
+/* Back to top button.*/
+#backToTop{
+	position: fixed;
+	right: 30px;
+	bottom: 60px;
+	height: 40px;
+	width: 40px;
+	opacity: 0.20;
+	transition: 0.3s;
+	visibility: hidden;
+}
+
+#backToTop:hover{
+	opacity: 0.85;
+}
+
+
+/* footer */
+footer{
+	height: 63px;
+	width: 100%;
+	background-color: black;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+/* ------ */
+
+
+/* content-myanmar */
+#content-myanmar{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+#content-1m{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/my.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+#picmyanmar1 > img{
+	width: 45%;
+	
+}
+#myanmar{
+	position: absolute;
+	width: 42%;
+	top: 20px;
+	right: 50px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 0.1em rgb(38, 39, 38);
+}
+@media screen and (max-width:600px) {
+	.myanmar {
+	width:100%;
+	}
+   } 
+   
+#myanmar p{
+	text-indent: 40px;
+	font-size: 18px;
+}
+#myanmar h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 60px;
+	color: rgb(243, 243, 54);
+}
+#content-a{
+	right: 130px;
+}
+#topic-myanmar-1{
+	font-size: 17px;
+	width: 40%;
+	top:590px;
+	left:120px;
+	font-family: 'Kanit', sans-serif;
+
+}
+#topic-myanmar-1 p{
+	text-indent: 40px;
+}
+
+#symbol-my{
+	position: absolute;
+	padding:5%;
+	height: 400px;
+	width: 84%;
+	background-color: rgb(250, 248, 248);
+	top: 4%;
+}
+
+
+#flag > img{ 
+	margin: auto auto;
+  	display: block;
+}
+
+#content-2m{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-image: url(../pic/gif/nam.gif);
+}
+#flag-asean-top > img{
+	float:right;
+}
+#contant-half-1{
+	position: absolute;
+	height: 580px; 
+	width: 75%;
+	left: 5%; 
+	top: 2%; 
+	padding: 3% 8% 8% 8%;
+	background-color: rgb(243, 239, 239);
+}
+
+#content-flag{
+    width: 100%;
+	font-family: 'Kanit', sans-serif;
+	font-size: 18px;
+}
+#content-flag p{
+	margin-block-start: 2em;
+	text-indent: 50px;
+}
+
+#content-flag2{
+	float:left;
+	top: 30px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 18px;
+}
+#content-flag2 p{
+	text-indent: 50px;
+}
+#pic-color-my > img{
+	width: 11%;
+}
+##pic-color-my{
+	float:left;
+	width:20%; 
+}
+#pic-color-my{
+	text-align: center;
+}
+
+#content-3m{
+	position: relative;
+	height: 780px;
+	background-image: url(../pic/gif/white.gif);
+}
+
+#national-clothes{
+	position: relative; 
+	height: 600px; 
+	width: 75%;
+	left: 5%; 
+	padding: 3% 8% 8% 8%;
+}
+#national-clothes h1{
+	font-size: 60px;
+	color: rgb(185, 30, 30);
+}
+#national-clothes h1:hover{
+	color: rgb(201, 99, 99);
+}
+#content-nation-my p{
+	font-size: 20px;
+	color: rgb(20, 20, 20);
+	text-indent: 50px;
+}
+#content-4m{
+	position: relative;
+	height: 800px;
+	padding: 7% 0% 7% 7%;
+	background-image: url(../pic/gif/white.gif);
+}
+#content-4m p{
+	text-indent: 40px;
+	font-size: 19px;
+}
+#flower-top h1{
+	font-size: 60px;
+	text-indent:60px;
+	color: rgb(38, 187, 51);
+}
+#flower-top h1:hover{
+	font-size: 60px;
+	text-indent:60px;
+	color: rgb(127, 212, 135);
+}
+#flower-top p{
+	text-indent: 50px;
+	color: rgb(32, 32, 32);
+	padding: 0px 0px 30px 20px;
+}
+#flower-top span{
+	background-color: rgb(135, 223, 76);
+	color: rgb(252, 252, 252);
+	text-shadow: 0.1em 0.1em 0.08em rgb(72, 196, 35);
+}
+#flower-top span:hover{
+	background-color: rgb(129, 224, 66);
+	color: rgb(75, 74, 74);
+	text-shadow: 0 0 0.1em rgb(129, 224, 66);
+}
+#flower-top2{
+	position: absolute;
+	left: 15%;
+}
+
+#flower-top2 > img{
+	width: 86%;
+}
+@media screen and (max-width:400px) {
+	#flower-top2 {
+	width:100%;
+
+	}
+} 
+
+
+#content-5m{
+	position: relative;
+	height: 900px;
+	background-color: rgb(110, 185, 135);
+}
+#currency{
+	padding: 4%;
+}
+
+#currency h1{
+	font-size: 60px;
+	text-indent:60px;
+	color: rgb(249, 253, 4);
+	text-shadow: 0 0 0.1em rgb(11, 110, 72);
+}
+
+#content-6m{
+	position: relative;
+	height: 1100px;
+	background-color: rgb(34, 33, 33);
+}
+
+#attraction{
+	padding: 4%;
+}
+
+#attraction h1{
+	font-size: 60px;
+	text-indent:60px;
+	color: rgb(240, 240, 240);
+}
+
+/* ------ */
+
+/*lao */
+#content-lao{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1l{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/lao.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#lao{
+	position: absolute;
+	width: 42%;
+	top: 20px;
+	right: 50px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 0.1em rgb(156, 22, 85);
+}
+@media screen and (max-width:600px) {
+	.lao {
+	width:100%;
+	}
+   } 
+   
+#lao p{
+	text-indent: 40px;
+	font-size: 18px;
+}
+#lao h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(247, 230, 83);
+}
+
+/* ------ */
+
+/*combodia */
+#content-combodia{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1c{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/cam.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#combodia{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(49, 49, 49);
+	text-shadow: 0 0 0.1em rgb(226, 213, 23);
+}
+@media screen and (max-width:600px) {
+	.combodia {
+	width:100%;
+	}
+   } 
+   
+#combodia p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#combodia h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(29, 29, 29);
+}
+
+/* ------ */
+
+
+/*lao */
+#content-lao{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1l{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/lao.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#lao{
+	position: absolute;
+	width: 42%;
+	top: 20px;
+	right: 50px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 0.1em rgb(156, 22, 85);
+}
+@media screen and (max-width:600px) {
+	.lao {
+	width:100%;
+	}
+   } 
+   
+#lao p{
+	text-indent: 40px;
+	font-size: 18px;
+}
+#lao h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(247, 230, 83);
+}
+
+/* ------ */
+
+/*indonesia */
+#content-indonesia{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1i{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/in.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#indonesia{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(240, 240, 240);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.indonesia {
+	width:100%;
+	}
+   } 
+   
+#indonesia p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#indonesia h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 239, 94);
+}
+
+/* ------ */
+
+
+
+/*brunei */
+#content-brunei{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1brunei{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/bu.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#brunei{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(240, 240, 240);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.brunei {
+	width:100%;
+	}
+   } 
+   
+#brunei p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#brunei h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 239, 94);
+}
+
+/* ------ */
+
+
+
+/*malaysia */
+#content-malaysia{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1ma{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/ma_1.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#malaysia{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(240, 240, 240);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.malaysia {
+	width:100%;
+	}
+   } 
+   
+#malaysia p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#malaysia h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 239, 94);
+}
+
+/* ------ */
+
+
+/*philippines */
+#content-philippines{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1ph{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/ph.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#philippines{
+	position: absolute;
+	width: 42%;
+	top: 40px;
+	right: 20px;
+	color: rgb(240, 240, 240);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.philippines {
+	width:100%;
+	}
+   } 
+   
+#philippines p{
+	text-indent: 40px;
+	font-size: 18px;
+}
+#philippines h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 239, 94);
+}
+
+/* ------ */
+
+
+
+
+/*singapore */
+#content-singapore{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1si{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/si.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#singapore{
+	position: absolute;
+	width: 42%;
+	top: 20px;
+	right: 20px;
+	color: rgb(29, 29, 29);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.singapore {
+	width:100%;
+	}
+   } 
+   
+#singapore p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#singapore h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 255, 255);
+}
+
+/* ------ */
+
+
+/*thailand */
+#content-thailand{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1th{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/th.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#thailand{
+	position: absolute;
+	width: 42%;
+	top: 10px;
+	right: 20px;
+	color: rgb(233, 233, 233);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.thailand {
+	width:100%;
+	}
+   } 
+   
+#thailand p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#thailand h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 231, 94);
+}
+
+/* ------ */
+
+
+/*malaysia */
+#content-malaysia{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1my{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/ma_1.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#malaysia{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(255, 250, 210);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.malaysia {
+	width:100%;
+	}
+   } 
+   
+#malaysia p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#malaysia h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 231, 94);
+}
+
+/* ------ */
+
+
+/*vietnam */
+#content-vietnam{
+	position: relative;
+	background-color: rgb(218, 216, 216);
+}
+
+#content-1v{
+	position: relative;
+	height: 470px;
+	background-size: 100%;
+	padding:8%;
+	background-image: url(../pic/gif/vi.gif);
+	background-size: cover;
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+#vietnam{
+	position: absolute;
+	width: 42%;
+	top: 0px;
+	right: 20px;
+	color: rgb(238, 238, 238);
+	text-shadow: 0 0 0.1em rgb(92, 92, 90);
+}
+@media screen and (max-width:600px) {
+	.vietnam {
+	width:100%;
+	}
+   } 
+   
+#vietnam p{
+	text-indent: 40px;
+	font-size: 17.5px;
+}
+#vietnam h1{
+	font-family: 'Courgette', cursive;
+	margin-block-end: 0.20em;
+	text-indent: 25px;
+	font-size: 65px;
+	color: rgb(255, 231, 94);
+}
+
+/* ------ */
+
+
+/* asean + */
+#content-asean_pius{
+	position: relative;
+	height: 627px;
+}
+#content-1p {
+	position: relative;
+	height: 535px;
+	background-image: url(../pic/gif/800x600.gif);
+	background-size: cover;
+	background-size: 132%;
+	padding: 3%;
+	
+}
+
+#aseanplus_1 h1{
+	font-size: 55px;
+	font-family: 'Kalam', cursive;
+	margin-block-start: 0.1em;
+	margin-block-end: 0em;
+	color: rgb(247, 243, 59);
+	text-shadow: 0 0 0.1em rgb(66, 66, 66);
+	
+}
+#aseanplus_1 p{
+	font-size: 18px;
+	text-indent: 50px;
+	color: rgb(232, 232, 233);
+}
+#aseanplus_1{
+	padding: 2% 6% 4% 6%;
+	color: rgb(31, 31, 31);
+}
+
+#aseanplus_1 > h1{
+	margin-top: -50px;
+}
+/* ------ */
+
+
+
+/* asean +3*/
+#content_1{
+	padding: 3%;
+	font-size: 17px;
+}
+#content-2p-plus3 {
+	position: relative;
+	height: 200px;
+	background-color: rgb(255, 255, 255);
+	text-indent: 40px;
+}
+
+#content-3p-plus3{
+	position: relative;
+	height: 900px;
+	background-color: rgb(255, 255, 255);
+}
+/* ------ */
+
+
+
+
+
+
+/* asean +6*/
+#content-2p-plus6 {
+	position: relative;
+	height: 200px;
+	background-color: rgb(255, 255, 255);
+}
+#country_6 > img{
+	width: 14%;
+	padding: 0.1%;
+}
+#country_6{
+	text-align: right;
+}
+
+/* ------ */
+
+/* asean +8*/
+#country_8 > img{
+	width: 14%;
+	padding: 0.1%;
+}
+#country_8{
+	text-align: right;
+}
+
+/* ------ */
+
+/* asean +9*/
+#country_9 > img{
+	width: 14%;
+	padding: 0.1%;
+}
+#country_9{
+	text-align: right;
+}
+
+/* ------ */
+
+
+/* travel 10 */
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #34495e;
+	 }
+	 .slidershow{
+	width: 1000px;
+	height: 680px;
+	overflow: hidden;
+	 }
+	 .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	 }
+	 .navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	 }
+	 .bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+	 }
+	 .bar:hover{
+	background: #fff;
+	 }
+	 
+	 input[name="r"]{
+	  position: absolute;
+	  visibility: hidden;
+	 }
+	 
+	 .slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+	font-size: 18px;
+	color: #fff;
+
+	 }
+	 .slides h1{
+		margin-block-end: 0.2em;
+	 }
+	 .slides p{
+		margin-block-start: 0em;
+		margin-block-end: 0.5em;
+	 }
+	 .slide{
+		width: 20%;
+		transition: 0.6s;
+
+	 }
+	 .slide img{
+	width: 100%;
+	height: 100%;
+	 }
+	 
+	 #r1:checked ~ .s1{
+	margin-left: 0;
+	 }
+	 #r2:checked ~ .s1{
+	margin-left: -20%;
+	 }
+	 #r3:checked ~ .s1{
+	margin-left: -40%;
+	 }
+
+
+/* ------ */
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #34495e;
+	 }
+	 .slidershow2{
+	width: 340px;
+	height: 290px;
+	overflow: hidden;
+	 }
+	 .middle2{
+	position: absolute;
+	top: 71%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	 }
+	 .navigation{
+	position: absolute;
+	bottom: 11px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	 }
+	 .bar2{
+	width: 14px;
+	height: 14px;
+	background: rgb(223, 223, 223);
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.2s;
+	border-radius: 25px;
+	 }
+	 .bar2:hover{
+	
+	border: 2px solid rgb(36, 36, 36);
+	 }
+	 
+	 input[name="r"]{
+	  position: absolute;
+	  visibility: hidden;
+	 }
+	 
+	 .slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+	font-size: 18px;
+	color: #fff;
+	margin-top: -70px;
+
+	 }
+	 .slides h1{
+		margin-block-end: 0.2em;
+	 }
+	 .slides p{
+		margin-block-start: 0em;
+		margin-block-end: 0.5em;
+	 }
+	 .slide{
+	width: 20%;
+	transition: 0.6s;
+	margin-top: 60px;
+	 }
+	 .slide img{
+	width: 100%;
+	height: 100%;
+	 }
+	 
+	 #r1:checked ~ .s1{
+	margin-left: 0%;
+	 }
+	 #r2:checked ~ .s1{
+	margin-left: -20%;
+	 }
+	 #r3:checked ~ .s1{
+	margin-left: -40%;
+	 }
+	 #r4:checked ~ .s1{
+		margin-left: -60%;
+	}
+	#r5:checked ~ .s1{
+		margin-left: -80%;
+	}
+	#r6:checked ~ .s1{
+		margin-left: -100%;
+	}
+	#r7:checked ~ .s1{
+		margin-left: -120%;
+	}
+	#r8:checked ~ .s1{
+		margin-left: -140%;
+	}
+	#r9:checked ~ .s1{
+		margin-left: -160%;
+	}
+
+
+
+/* ------ */
+
